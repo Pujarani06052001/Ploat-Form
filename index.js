@@ -15,7 +15,7 @@ app.use(cors());
 
 
 // Connect to MongoDB
-const MONGO_URI = "mongodb://127.0.0.1:27017/plotData"; // Replace with your MongoDB URI
+const MONGO_URI = "mongodb+srv://paras22:BB2orhb1NHhtvT0J@cluster0.gejab.mongodb.net/Backend_datap?retryWrites=true&w=majority&appName=Cluster0"; // Replace with your MongoDB URI
 mongoose
   .connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("Connected to MongoDB"))
